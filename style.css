@@ -8,18 +8,54 @@ body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-#header {
+.bgmain {
     background-color: var(--main-color);
+}
+
+.btnmain {
+    background-color: var(--main-color);
+    padding: .5em;
+}
+
+.bgmainlight {
+    background-color: var(--main-light);
+}
+
+.card {
+    background-color: var(--main-light);
+    color: var(--main-color);
+}
+
+.textmain {
+    color: var(--main-color);
+}
+
+.textmainlight {
     color: var(--main-light);
+}
+
+.extrabigicon {
+    font-size: 8dvh;
+}
+
+#header {
+    color: var(--main-light);
+    height: 15dvh;
+}
+
+#headerlogo {
+    height: 10dvh;
+    width: 10dvh;
 }
 
 #heroSection {
     background-image: url(https://thehiltandcross.com/wp-content/uploads/2020/07/BenSmith_28.jpg);
-    background-position: center;
+    background-position: top 30% left 15%;
+    height: 50dvh;
 }
 
 #heroText {
     color: var(--main-color);
-    text-shadow: .1em .1em 2px var(--main-light);
+    text-shadow: .1em .1em .05em var(--main-light);
     font-weight: bold;
 }
