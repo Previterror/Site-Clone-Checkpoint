@@ -13,6 +13,18 @@ footer {
     background-position: top 40% right 100%;
 }
 
+button {
+    border-radius: 1em;
+    padding: 1em;
+}
+
+button:hover {
+    background-color: var(--main-light);
+    color: var(--main-color);
+    border: .2em var(--main-color) solid;
+    transition: all .5s ease;
+}
+
 .bgmain {
     background-color: var(--main-color);
 }
@@ -83,7 +95,7 @@ footer {
 #heroSection {
     background-image: url(https://thehiltandcross.com/wp-content/uploads/2020/07/BenSmith_28.jpg);
     background-position: top 30% left 15%;
-    height: 50dvh;
+    min-height: 50dvh;
 }
 
 #heroText {
