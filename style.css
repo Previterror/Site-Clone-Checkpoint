@@ -14,11 +14,30 @@ body {
 
 .btnmain {
     background-color: var(--main-color);
+    border-color: var(--main-light);
     padding: .5em;
 }
 
 .bgmainlight {
     background-color: var(--main-light);
+}
+
+@media (min-width: 1200px) {
+
+    .float-card {
+        position: absolute;
+        bottom: 2vh;
+        right: 18vh;
+    }
+
+    .float-card-offset {
+        margin-bottom: 5vh;
+    }
+
+    #blurbFeatures {
+        height: 30dvh
+    }
+
 }
 
 .card {
@@ -38,9 +57,11 @@ body {
     font-size: 8dvh;
 }
 
+
+
 #header {
     color: var(--main-light);
-    height: 15dvh;
+    height: 10dvh;
 }
 
 #headerlogo {
