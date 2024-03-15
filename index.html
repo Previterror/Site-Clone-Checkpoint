@@ -18,7 +18,7 @@
         defer></script>
 </head>
 
-<body class="debug textmain">
+<body class="textmain bgmainlight">
 
     <!-- //!SECTION Header -->
     <header id="header" class="d-flex p-3 bgmain align-items-center sticky-md-top">
@@ -42,11 +42,11 @@
                             <input type="text" placeholder="Phone" class="col-6 m-2">
                             <input type="text" placeholder="Ext." class="col-4 m-2">
                             <input type="text" placeholder="Message" class="m-2">
-                            <div class="form-check">
+                            <div class="form-check m-2">
                                 <input type="checkbox" class="form-check-input" value="" id="tcCheck">
                                 <label for="tcCheck">I love Terms AND Conditions!</label>
                             </div>
-                            <button type="submit" class="btn btn-primary btnmain col-3 p-1">
+                            <button type="submit" class="btn btn-primary btnmain col-3 m-2 p-1">
                                 Submit
                             </button>
                         </div>
@@ -54,7 +54,7 @@
                 </div>
             </div>
 
-            <div id="heroText" class="col-8 p-5 mt-5 d-none d-md-block">
+            <div id="heroText" class="col-8 p-5 mt-5 d-none d-md-flex flex-column text-end justify-content-end">
                 <h2>Swords are where the heart is!</h2>
                 <p>Do you love swords? So do we! Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
             </div>
@@ -164,8 +164,21 @@
 
     </main>
 
-    <footer>
-
+    <footer class="container-fluid">
+        <div class="row justify-content-center align-items-center">
+            <div class="card bgmainlight shadow border rounded col-3 mx-2 align-items-center">
+                <h4>Come train with us!</h4>
+                <span>7211 W Colonial St, Boise, ID 83709</span>
+                <span>(208)466-6666</span>
+                <span>Saturdays Beginners 12:30-2:30pm</span>
+                <span>
+                    <span class="mdi mdi-facebook fs-3"></span>
+                    <span class="mdi mdi-google-plus fs-3"></span>
+                    <span class="mdi mdi-linkedin fs-3"></span>
+                    <span class="mdi mdi-microsoft-xbox fs-3"></span>
+                </span>
+            </div>
+        </div>
     </footer>
 
 </body>
