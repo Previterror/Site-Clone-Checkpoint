@@ -39,11 +39,17 @@ button:hover {
     background-color: var(--main-light);
 }
 
+.containing-relative {
+    position: relative;
+    min-height: 5vh;
+    padding: 0;
+}
+
 @media (min-width: 768px) {
 
     .float-card {
         position: absolute;
-        top: 62%;
+        top: -10dvh;
         right: 12%;
     }
 
@@ -62,6 +68,7 @@ button:hover {
     }
 
 }
+
 
 .card {
     background-color: var(--main-light);
@@ -84,6 +91,13 @@ button:hover {
     font-size: 8dvh;
 }
 
+.minheightlg {
+    min-height: 50dvh;
+}
+
+.minheightsm {
+    min-height: 30dvh;
+}
 
 #header {
     color: var(--main-light);
@@ -98,7 +112,6 @@ button:hover {
 #heroSection {
     background-image: url(https://thehiltandcross.com/wp-content/uploads/2020/07/BenSmith_28.jpg);
     background-position: top 30% left 15%;
-    min-height: 50dvh;
 }
 
 #heroText {
