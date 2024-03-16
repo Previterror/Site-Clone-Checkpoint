@@ -39,12 +39,12 @@ button:hover {
     background-color: var(--main-light);
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 768px) {
 
     .float-card {
         position: absolute;
-        bottom: 5vh;
-        right: 18vh;
+        bottom: -10vh;
+        right: 12vh;
     }
 
     .float-card-offset {
@@ -79,7 +79,6 @@ button:hover {
 .extrabigicon {
     font-size: 8dvh;
 }
-
 
 
 #header {
