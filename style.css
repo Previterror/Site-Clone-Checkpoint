@@ -39,12 +39,12 @@ button:hover {
     background-color: var(--main-light);
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1020px) {
 
     .float-card {
         position: absolute;
-        bottom: -10vh;
-        right: 12vh;
+        bottom: 10%;
+        right: 12%;
     }
 
     .float-card-offset {
