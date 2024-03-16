@@ -31,6 +31,8 @@ button:hover {
 
 .btnmain {
     background-color: var(--main-color);
+    border: .1em solid;
+    border-radius: 2px;
     border-color: var(--main-light);
     padding: .5em;
 }
@@ -61,14 +63,13 @@ button:hover {
         height: 30dvh
     }
 
-    .float-foot {
-        position: absolute;
-        bottom: 5vh;
-        right: 18vh;
-    }
-
 }
 
+.bordermain {
+    border: .1em;
+    border-radius: 2px;
+    border-color: var(--main-color);
+}
 
 .card {
     background-color: var(--main-light);
