@@ -21,8 +21,8 @@ button {
 button:hover {
     background-color: var(--main-light);
     color: var(--main-color);
-    border: .2em var(--main-color) solid;
-    transition: all .5s ease;
+    border: .1em var(--main-color) solid;
+    transition: all .2s ease;
 }
 
 .bgmain {
