@@ -39,7 +39,7 @@ button:hover {
     background-color: var(--main-light);
 }
 
-@media (min-width: 1020px) {
+@media (min-width: 768px) {
 
     .float-card {
         position: absolute;
@@ -66,6 +66,10 @@ button:hover {
 .card {
     background-color: var(--main-light);
     color: var(--main-color);
+    border-color: var(--main-color);
+    padding-top: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
 }
 
 .textmain {
