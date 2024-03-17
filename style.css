@@ -13,6 +13,10 @@ footer {
     background-position: top 40% right 100%;
 }
 
+img {
+    border-radius: 85px;
+}
+
 button {
     border-radius: 1em;
     padding: 1em;
@@ -45,6 +49,14 @@ button:hover {
     position: relative;
     min-height: 5vh;
     padding: 0;
+}
+
+.text-trunc {
+    max-height: 125px;
+    width: 80%;
+    white-space: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 @media (min-width: 768px) {
